@@ -1708,7 +1708,7 @@ window['location'][_0x265c33(0x2b6)][_0x265c33(0x4db)]('colmeia') > -0x1 && (you
     });
 }, updateTheme = function () {
     var _0x44dc2f = _0x265c33;
-    $(_0x44dc2f(0x366))[_0x44dc2f(0x182)]($('<link\x20rel=\x22stylesheet\x22\x20href=\x22https://cdn.jsdelivr.net/gh/fgundesr1/dentologapapelaria1.0@main/dentologa-update.css\x22>')), $('head')[_0x44dc2f(0x182)]($('<script\x20async\x20src=\x22https://github.com/fgundesr1/dentologapapelaria2.0/blob/main/dentologa-update.js\x22></script>'));
+    $(_0x44dc2f(0x366))[_0x44dc2f(0x182)]($('<link\x20rel=\x22stylesheet\x22\x20href=\x22https://cdn.jsdelivr.net/gh/syncrosolution/colmeiabr@main/colmeia-update.css\x22>')), $('head')[_0x44dc2f(0x182)]($('<script\x20async\x20src=\x22https://cdn.jsdelivr.net/gh/syncrosolution/colmeiabr@main/colmeia-update.js\x22></script>'));
     if (typeof ofertaRegressiva !== _0x44dc2f(0x510)) {
         function _0x44ed94(_0x5ebd43, _0x47a4db, _0x3e06b8, _0x14e437) {
             var _0x5309d4 = _0x44dc2f,

@@ -1,0 +1,26 @@
+:root {
+    --cor_primaria:#BEE4E7;
+    --cor_secundaria:#BEE4E7;
+    --cor_botao: #F4CEE1;
+    --cor_botao_hover: #BEE4E7;
+    --cor_texto_botao: #fff;
+    --cor_texto_botao_hover: #fff;
+    --cor_botao_comprar: #4CAF50;
+    --pre_cabecalho: #BEE4E7;
+    --cor_texto_pre_cabecalho: #fff;
+    --cor_cabecalho: #F4CEE1;
+    --cor_icones: #fff;
+    --cor_icones_hover: #fff;
+    --cor_texto_icones: #fff;
+    --cor_menu: #fff;
+    --cor_texto_menu: #2F3564;
+    --cor_newsletter: #2F3564;
+    --cor_footer: #fff;
+    --cor_texto_footer: #2F3564;
+    --texto_global:#2F3564;
+    --cor_clara:#fff;
+    --cor_escura:#2F3564;
+    --texto_background:#ffffff;
+    --texto_bg_escuro:#2F3564;
+    --texto_bg_claro:#2F3564
+}

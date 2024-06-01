@@ -1,0 +1,232 @@
+:root{
+    --cor_preco_icones_e_borda: #1fd3f1;
+    --cor_texto_modal_open: #fff;
+    --cor_bg_modal_open: #02252b;
+    --cor_superior_flutuante: #02252b;
+    --cor_inferior_flutuante: #f89406;
+    --cor_texto_flutuante: #fff;
+  }
+  
+  .busca input {
+    color: #444 !important;
+  }
+  
+  @media (min-width: 768px) {
+      .tabela-carrinho .form-horizontal .control-label {
+          text-align: left;
+          padding-left: 2%
+      }
+      
+      .uneditable-input, input[type="color"], input[type="date"], input[type="datetime-local"], input[type="datetime"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], select {
+          background: #fff;
+          border: 1px solid #b1b1b1c9;
+          border-radius: 3px;
+          box-shadow: 0 2px 2px #0000001f;
+      }
+  }
+  
+  
+  @media (max-width: 768px) {
+      .tabela-carrinho .form-horizontal .controls input {
+        background: #fff;
+        border: 1px solid #b1b1b1c9;
+        border-radius: 3px;
+        box-shadow: 0 2px 2px #0000001f;
+        padding: 15px;
+        width: 200px;
+        text-align: left;
+      }
+      
+      .carrinho-checkout .resumo-compra .tabela-carrinho .padding-preco > div {
+          padding: 0
+      }
+      
+      .carrinho-checkout #formularioCheckout input:focus {
+          border-width: 1.2px;
+      }
+      
+      .carrinho-checkout #formularioCheckout input:not(.checkbox input) {
+          height: 40px
+      }
+      
+      .carrinho-checkout .input-append .add-on {
+          padding: 10px;
+          background: transparent;
+          border:0;
+      }
+      
+      .carrinho-checkout #id_cep {
+          padding: 0
+      }
+      
+      .resumo-compra .tabela-carrinho .produto-info {
+          white-space: normal;
+      }
+  }
+  
+  .carrinho-checkout strong.preco-promocional.cor-principal.titulo {
+      font-size: 0.875rem
+  }
+  
+  .carrinho-checkout .conteiner-qtd {
+      display: flex;
+      margin-top:6px;
+      justify-content: center;
+      width: initial !important;;
+      height: auto;
+      line-height: 30px;
+  }
+  
+  
+  /* FORM ENVIO */
+  
+  .formas-envio.span4 ul {
+      align-items: center;
+      display: flex;
+  }
+  
+  .formas-envio.span4 ul li {
+      width: 100%;
+      position: relative;
+      left: -30px;
+      margin-right: 10px;
+      top: -24px;
+  }
+  
+  .formas-envio.span4 ul li img {
+      width: 100px !important;
+      max-width: 100px !important;
+  }
+  
+  @media screen and (max-width: 768px) {
+      .formas-envio.span4 {
+          display: flex !important;
+          flex-direction: column;
+          line-height: 70px !important;
+          margin-left: 0px !important;
+          margin-top: 0px !important;
+      }
+  
+      .formas-envio.span4 ul {
+          flex-wrap: wrap;
+          position: relative;
+          right: 4%;
+      }
+  
+      .formas-envio.span4 ul li {
+          width: 30%;
+          left: 0px;
+          top: 2px;
+      }
+  
+      .formas-envio.span4 .titulo::after {
+          line-height: 70px !important;
+      }
+  }
+  
+  /* GEROU DEMANDA NO SUPORTE */
+  /* .pagamento > ul + ul {
+      display: none !important;
+  }
+   */
+   
+  @media (max-width: 767px) {
+      .info-principal-produto .descricao_curta {
+          text-align: justify;
+          font-size: 14px;
+      }
+  
+      .formas-envio.span4 ul {
+          align-items: center;
+          flex-wrap: wrap;
+          width: 100%;
+      }
+  
+      .formas-envio.span4 ul li {
+          margin-bottom: 14px !important;
+      }
+  }
+  
+  #rodape .pagamento-selos .pagamento > span, #rodape .pagamento-selos .selos > span {
+      color: var(--cor_primaria) !important
+  }
+  
+  /* Texto Desalinhado na pagina do produto */
+  @media (max-width: 769px) {
+      .info-principal-produto .breadcrumbs ul li {
+          margin-bottom: 7px;
+      }
+      .pagina-produto .produto .nome-produto {
+          display: block;isplay: inline-block;
+      }
+  }
+  
+  /* Selo indisponÃ­vel com o tamanho errado */
+  .bandeira-indisponivel.fundo-secundario {
+      width: max-content;
+      height: fit-content;
+  }
+  
+  /* Scroll no menu na versÃ£o mobile */
+  @media(max-width:769px) {
+      .lrMenuBox > .com-filho > ul {
+          overflow: scroll;
+      }
+  }
+  
+  /* EspaÃ§amento na versÃ£o mobile das listagens */
+  @media(max-width:769px){
+      .pagina-busca .listagem ul[data-produtos-linha="4"] li, .pagina-categoria .listagem ul[data-produtos-linha="4"] li {
+          padding: 5px;
+      }
+  }
+  
+  /* NOVO CDN - AJUSTES MINHA CONTA */
+  .menu-user-logged {
+      display: block !important;
+  }
+  
+  .logout[data-login="false"]{
+      display: none;
+  }
+  
+  span.titulo.cor-secundaria.vazio-text {
+      display: none !important;
+  }
+  
+  /* Frete GrÃ¡tis */
+  
+  .frete-gratis {
+      background: #44a966;
+      padding: 14px 0px;
+      text-align: center;
+      font-weight: 600;
+      font-size: 0.875rem;
+      color: #fff;
+      border-radius: 0px;
+      position: relative;
+      overflow: hidden;
+      margin-bottom: 20px;
+      max-width: 1300px;
+      margin: auto;
+    }
+    
+    .frete-gratis-progresso {
+      width: 0%;
+      height: 100%;
+      background: #0000001f;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      z-index: 0;
+      transition: width .2s;
+      border-radius: 0;
+    }
+    .frete-gratis-texto {
+      z-index: 1;
+      position: relative;
+    }
+  
+    .pagina-carrinho.carrinho-checkout .frete-gratis {
+      display: none !important;
+    }
